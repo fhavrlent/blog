@@ -1,0 +1,29 @@
+baseurl = "/"
+title = "Filip Havrlent - Blog"
+theme = "ghostwriter"
+
+[Markup]
+  [Highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    tabWidth = 2
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Blog"
+    description = "Filip Havrlent"
+    github = "https://github.com/fhavrlent"
+    opengraph = true
+    dateFormat = "Mon, Jan 2, 2006"
+    rss = true
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+
+[Permalinks]
+    post = "/:filename/"
